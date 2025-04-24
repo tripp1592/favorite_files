@@ -22,3 +22,11 @@
 - Added context menu option to create symlinks for existing files 
 - Implemented Windows-specific permission handling for symlink creation
 - Added file/directory existence checks and overwrite confirmation
+
+2025-04-23 18:30:00 - Added automatic symlink update system
+- Implemented symlink tracking and monitoring with QTimer
+- Added symlinks.json storage to track created symlinks
+- Created BrokenSymlinkDialog to handle broken symlinks
+- Integrated existing "Find Moved File" functionality for symlink repairs
+- Added option to enable/disable tracking for individual symlinks
+- Implemented automatic symlink repair when original file is moved
