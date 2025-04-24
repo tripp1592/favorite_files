@@ -9,3 +9,16 @@
 - Added AddFavoriteDialog for file selection
 - Implemented double-click to open files
 - Added visual indicators for file existence
+
+2025-04-23 15:45:00 - Added functionality to handle moved files
+- Created FindMovedFileDialog to locate moved files
+- Added auto-search feature to find files by name in common locations
+- Implemented context menu with "Find Moved File" option
+- Enhanced FavoriteFilesManager with path update capability
+- Added automatic detection when opening a non-existent file
+
+2025-04-23 17:15:00 - Added symbolic link functionality
+- Created CreateSymlinkDialog to specify symlink target location
+- Added context menu option to create symlinks for existing files 
+- Implemented Windows-specific permission handling for symlink creation
+- Added file/directory existence checks and overwrite confirmation
