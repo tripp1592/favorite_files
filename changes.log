@@ -1,0 +1,11 @@
+2025-04-23 12:00:00 - Created main.py with FavoriteFilesManager class
+- Implemented core functionality for managing favorite files
+- Added command-line interface with list, add, and remove commands
+- Used argparse for handling command-line arguments
+
+2025-04-23 14:30:00 - Converted application to use PyQt6 GUI
+- Maintained core FavoriteFilesManager functionality
+- Created MainWindow class with list display and buttons
+- Added AddFavoriteDialog for file selection
+- Implemented double-click to open files
+- Added visual indicators for file existence

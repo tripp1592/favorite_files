@@ -5,6 +5,8 @@
 - only use uv commands, for example:
   - instead of python main.py, we would use uv run main.py
   - even making virtual environments is done through using uv venv
+## GUI
+- use pyqt6 as the framework for the GUI 
 
 ## Code Generation
 - always use main.py as an entry point with the:
